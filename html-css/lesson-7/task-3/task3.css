@@ -1,0 +1,22 @@
+.theory::first-letter {
+  margin-left: 16px;
+  font-size: 36px;
+  color: orange;
+}
+
+.theory::first-line {
+  font-size: 24px;
+}
+
+.theory::selection {
+  background-color: red;
+  color: white;
+}
+
+a[href]::before {
+  content: '>';
+}
+
+a[href]::after {
+  content: '<';
+}
