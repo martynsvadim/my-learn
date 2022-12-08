@@ -1,0 +1,20 @@
+input[type='checkbox']:checked {
+  margin-left: 50px;
+}
+
+#special::first-letter {
+  font-size: 100px;
+  color: green;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+h1:hover {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
