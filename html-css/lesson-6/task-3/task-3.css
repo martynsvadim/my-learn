@@ -14,7 +14,7 @@ li[data-description*='even'] {
   font-size: 24px;
 }
 
-img[src^="https://"], a[href^="https://"]
+a[href^="https://"]
 {
   color: green;
 }
