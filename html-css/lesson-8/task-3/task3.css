@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.identical {
+  width: 100px;
+  margin: 50px;
+}
+
+.similitary {
+  height: 50px;
+}
+
+.similitary2 {
+  height: 100px;
+}
+
+.rectangle {
+  background-color: forestgreen;
+  border-radius: 16px;
+}
+
+.oval {
+  background-color: darkmagenta;
+  border-radius: 50%;
+}
+
+.circle {
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.triangle {
+  border: 50px solid transparent;
+  border-top-color: brown;
+}
