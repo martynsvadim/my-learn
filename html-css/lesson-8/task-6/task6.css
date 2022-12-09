@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.identical {
+  border: 2px solid black;
+}
+
+.iterance {
+  margin: 50px;
+}
+
+.rectangle {
+  height: 400px;
+  background-color: blue;
+}
+
+.rectangle2 {
+  height: 300px;
+  background-color: yellow;
+
+  padding: 50px;
+}
+
+.rectangle3 {
+  height: 200px;
+  background-color: green;
+}
+
+.rectangle4 {
+  height: 100px;
+  background-color: pink;
+}
