@@ -13,10 +13,10 @@
   color: white;
 }
 
-a[href]::before {
+a::before {
   content: '>';
 }
 
-a[href]::after {
+a::after {
   content: '<';
 }
