@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+}
+
+nav {
+  height: 40px;
+  line-height: 40px;
+}
+
+ul {
+  margin: 0px;
+}
+
+.nav-item {
+  float: left;
+  margin-left: 16px;
+  color: white;
+  display: block;
+}
+
+.content {
+  position: relative;
+  background-color: beige;
+  height: 5000px;
+}
+
+.head {
+  position: relative;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+.ear_right,
+.ear_left {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: relative;
+}
+
+.ear_right {
+  bottom: 60px;
+  left: 200px;
+}
+
+.ear_left {
+  bottom: 120px;
+  right: 40px;
+}
+
+.eye_left,
+.eye_right {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  top: 80px;
+}
+
+.eye_left {
+  left: 40px;
+}
+
+.eye_right {
+  right: 40px;
+}
