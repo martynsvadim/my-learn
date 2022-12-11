@@ -6,7 +6,9 @@
   border: 2px solid black;
 }
 
-.iterance {
+.rectangle,
+.rectangle2,
+.rectangle4 {
   margin: 50px;
 }
 
