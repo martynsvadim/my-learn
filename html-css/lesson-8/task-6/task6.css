@@ -4,11 +4,6 @@
 
 .identical {
   border: 2px solid black;
-}
-
-.rectangle,
-.rectangle2,
-.rectangle4 {
   margin: 50px;
 }
 
@@ -18,8 +13,6 @@
 
 .rectangle2 {
   background-color: yellow;
-
-  padding: 50px;
 }
 
 .rectangle3 {
