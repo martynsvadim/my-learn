@@ -1,0 +1,33 @@
+.content {
+  margin: 32px;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  text-align: center;
+  word-spacing: 20px;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  line-height: 28px;
+}
+
+.definition {
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.translation {
+  color: grey;
+}
