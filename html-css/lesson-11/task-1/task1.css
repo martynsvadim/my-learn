@@ -4,10 +4,10 @@ div > div {
   background: coral;
 }
 
-div > div:nth-child(1) {
+.container > div:nth-child(1) {
   display: none;
 }
 
-div > div:nth-child(2) {
+.container > div:nth-child(2) {
   visibility: hidden;
 }
