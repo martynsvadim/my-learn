@@ -1,0 +1,10 @@
+.image {
+  display: inline-block;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 16px;
+  border: 1px dotted grey;
+}
