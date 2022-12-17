@@ -1,0 +1,10 @@
+div.rectangle {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+}
+
+.new.text::first-letter {
+  color: #0f0;
+  font-size: 24px;
+}
