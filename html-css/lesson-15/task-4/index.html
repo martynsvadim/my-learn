@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Images</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .image-container {
+        position: relative;
+      }
+
+      .image {
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
+      }
+
+      .image-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: calc(50% - 25px);
+        left: calc(50% - 100px);
+        width: 200px;
+        height: 50px;
+        background-color: bisque;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        opacity: 0.5;
+      }
+
+      .image-button:hover {
+        opacity: 1;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="image-container">
+      <img
+        class="image"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
+        alt="Forest"
+      />
+      <span class="image-button">Later I'll do something</span>
+    </div>
+  </body>
+</html>
