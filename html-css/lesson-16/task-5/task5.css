@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-element {
+  margin: 32px;
+}
+
+.introduction {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="task5.css" />
+  </head>
+  <body>
+    <form class="form-element">
+      <div>
+        <input
+          class="introduction"
+          type="text"
+          name="primaryLanguge"
+          value="HTML"
+          disabled
+        />
+      </div>
+      <div>
+        <input class="introduction" type="checkbox" name="agree" />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="checkbox"
+          name="like"
+          checked
+          readonly
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="color"
+          name="favouriteColor"
+          value="#ff7f50"
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="date"
+          name="birthDate"
+          value="2021-01-02"
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="datetime-local"
+          name="birthTime"
+          value="2024-10-04T13:02"
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
+        />
+      </div>
+      <div>
+        <input class="introduction" type="file" name="avatar" />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="month"
+          name="startLearning"
+          value="2020-01"
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="number"
+          name="favouriteNumber"
+          value="17"
+        />
+      </div>
+      <textarea
+        class="introduction"
+        name="story"
+        cols="30"
+        rows="5"
+        placeholder="A long time ago..."
+      ></textarea>
+      <div>
+        <input
+          class="introduction"
+          type="password"
+          name="password"
+          value="secret"
+        />
+      </div>
+      <div class="languages">
+        <input class="introduction" type="radio" name="language" value="html" />
+        <label>HTML</label>
+        <input
+          class="introduction"
+          type="radio"
+          name="language"
+          value="css"
+          checked
+        />
+        <label>CSS</label>
+        <input
+          class="introduction"
+          type="radio"
+          name="language"
+          value="javascript"
+        />
+        <label>JavaScript</label>
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="range"
+          name="learningProgress"
+          value="30"
+        />
+      </div>
+      <select class="introduction" name="framework">
+        <option value="react">React</option>
+        <option value="jquery" selected>jQuery</option>
+        <option value="bootstrap">BootStrap</option>
+      </select>
+      <div>
+        <input
+          class="introduction"
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
+      </div>
+      <div>
+        <input class="introduction" type="time" name="lunchEnd" value="14:01" />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="url"
+          name="website"
+          placeholder="https://website.com"
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="introduction"
+          type="week"
+          name="birthWeek"
+          value="2021-W51"
+        />
+      </div>
+      <button class="introduction" type="submit">Save</button>
+    </form>
+  </body>
+</html>
