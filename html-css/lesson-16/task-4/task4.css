@@ -38,8 +38,8 @@ html {
 }
 
 .form-label {
-  position: relative;
-  bottom: 4px;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 .form-input:invalid {
