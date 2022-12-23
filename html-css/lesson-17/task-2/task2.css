@@ -3,15 +3,18 @@
 }
 
 table {
-  width: 800px;
+  width: 500px;
   margin: 16px;
+}
+
+tr {
+  height: 40px;
 }
 
 td,
 th {
   padding: 4px;
   text-align: right;
-  line-height: 40px;
 }
 
 caption {
