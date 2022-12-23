@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 32px;
+}
+
+.rect {
+  margin-bottom: 16px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.5;
+  background-color: #ff7f50;
+}
+
+.rect:hover {
+  animation: width 2s, opacity 0.5s forwards;
+}
+
+.linear {
+  animation: linear;
+}
+
+.ease {
+  animation: ease;
+}
+
+.ease-in {
+  animation: ease-in;
+}
+
+.ease-out {
+  animation: ease-out;
+}
+
+.ease-in-out {
+  animation: ease-in-out;
+}
+
+@keyframes width {
+  0% {
+    width: 100px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
