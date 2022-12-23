@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(255, 127, 80);
+  border-radius: 10px;
+  animation: slide 2s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: calc(50vh - 50px);
+  }
+}
