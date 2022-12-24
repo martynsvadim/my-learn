@@ -21,8 +21,7 @@ body {
   text-transform: uppercase;
   background-color: rgb(255, 127, 80);
   border-radius: 10px;
-  animation: slide 2s ease;
-  animation-fill-mode: forwards;
+  animation: slide 2s ease forwards;
 }
 
 @keyframes slide {
