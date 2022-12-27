@@ -16,7 +16,7 @@ body {
 
 .header {
   display: flex;
-  background-image: linear-gradient(60deg, red, orange);
+  background-image: linear-gradient(60deg, #f00, #ffa500);
 }
 
 h1 {
