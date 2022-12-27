@@ -46,18 +46,20 @@ section,
 }
 
 .nav-list-item {
+  display: flex;
   line-height: 2em;
   margin-bottom: 0.5em;
   background-color: #808080;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .nav-list-link {
-  padding-left: 0.5em;
-  text-decoration: none;
   color: #fff;
+  flex-grow: 1;
+  padding-left: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
 }
 
 .section {
