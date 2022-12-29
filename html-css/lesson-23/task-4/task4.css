@@ -1,0 +1,53 @@
+@media screen and (min-width: 900px) {
+  .content {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .products {
+    display: flex;
+    flex: 2 1;
+  }
+}
+
+.navigation,
+.product-list,
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.navigation {
+  background-color: #ff7f50;
+  flex: 1 1;
+}
+
+.product-list {
+  background-color: #006400;
+  flex: 1 1;
+}
+
+.news {
+  background-color: #0ff;
+  flex: 1 1;
+}
+
+span {
+  text-transform: lowercase;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=task4.css.map */
